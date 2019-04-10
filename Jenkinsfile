@@ -28,6 +28,9 @@ pipeline {
         unstable {
             echo 'I am unstable :/'
         }
+        aborted {
+            echo 'You aborted me, mummy :('
+        }
         failure {
             echo 'I failed :('
         }
