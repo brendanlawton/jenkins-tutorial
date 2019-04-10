@@ -7,7 +7,7 @@ pipeline {
             }
             steps {
                 sh 'php --version'
-                echo $THING
+                echo THING
             }
         }
     }
